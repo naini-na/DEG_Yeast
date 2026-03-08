@@ -1,0 +1,5 @@
+DEG results consist of 4 different .csv file 
+1. DEG NA14 vs WT : compare gene expression from strain NA14 and wild-type (WT)
+2. DEG NA04 vs WT : compare gene expression from strain NA04 and wild-type (WT)
+3. DEG NA14 vs NA04 : compare gene expression from mutant strain NA14 and mutant strain NA04
+4. DEG 120h vs 48h : compare gene expression between sampling time 120h and 48h
