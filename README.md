@@ -1,17 +1,8 @@
-# Differentially Expressed Genes Analysis of Saccharomyces cerevisiae Cultivated in Lignocellulosic Hydrolysate Using R
+# Differentially Expressed Genes Analysis of Yeast 
 
 ## 📌 Project Overview
-This project aims to identify differentially expressed genes (DEGs) in *Saccharomyces cerevisiae* cultivated in lignocellulosic hydrolysate compared to a sugar-based control medium. Transcriptomic data were obtained from the Gene Expression Omnibus (GEO) and analyzed using R.
-
+This project aims to identify differentially expressed genes (DEGs) in yeast species based on GEO data.
 The analysis includes differential expression testing, Gene Ontology (GO) enrichment, KEGG pathway analysis, and multiple data visualizations to explore molecular adaptation mechanisms.
-
----
-
-## 🧬 Objectives
-- Identify upregulated and downregulated genes under hydrolysate conditions
-- Perform functional enrichment analysis (GO and KEGG)
-- Visualize gene expression patterns using heatmap, volcano plot, and boxplot
-- Map significant genes to metabolic pathways using KEGG Mapper
 
 ---
 
@@ -23,7 +14,7 @@ The analysis includes differential expression testing, Gene Ontology (GO) enrich
 
 Analysis was performed using:
 
-- R (version X.X.X)
+- R (version 4.5.2)
 - limma
 - clusterProfiler
 - org.Sc.sgd.db
@@ -46,24 +37,11 @@ Analysis was performed using:
 
 ---
 
-## 📈 Key Results
-
-- Significant DEGs identified using FDR < 0.05 and |log2FC| > 1
-- Enriched biological processes related to carbohydrate metabolism
-- KEGG pathways associated with galactose metabolism and glycolysis were significantly enriched
-
----
-
-## 📌 Biological Interpretation
-
-The results suggest that *S. cerevisiae* activates carbohydrate metabolic pathways and stress-response mechanisms when cultivated in lignocellulosic hydrolysate. These findings provide insight into transcriptional adaptation under hydrolysate-induced stress conditions.
-
----
-
 ## 📎 Data Source
 
 Gene Expression Omnibus (GEO)  
-Accession Number: [GSE218764]
+Accession Number: [GSE218764], [GSE241709]
+
 
 ---
 
